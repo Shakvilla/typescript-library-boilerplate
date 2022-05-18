@@ -20,6 +20,7 @@ export function avg(a: number, b: number, c: number): number {
  * @param b - second number
  * @param c - third number
  *
+ * @public
  * 
  */
 export function sum3(a: number, b: number, c: number): number {
