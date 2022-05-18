@@ -1,4 +1,4 @@
-import { avg, sum3 } from "..";
+import { avg, sum3, subtract } from "..";
 
 describe("avg should calculate an average properly", () => {
   test("three positive numbers", () => {
@@ -17,3 +17,10 @@ describe("sum3 should calculate a sum properly", () => {
     expect(sum3(3, -4, -5)).toBe(-6);
   });
 });
+
+
+describe("subtract should subtract two numbers from each other", () => {
+  test("two positive numbers", () => {
+    expect(subtract(10, 3)).toBe(7)
+  });
+})

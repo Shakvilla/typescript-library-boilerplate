@@ -43,4 +43,6 @@ export function sum2(a: number, b: number): number {
   return sum
 }
 
+
+export {subtract} from './subtract'
 // console.log(sum2(4, 5))
